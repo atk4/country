@@ -1,0 +1,22 @@
+{
+    "name": "atk4/countries",
+    "type": "library",
+    "description": "SQL table containing and model for Agile Data",
+    "keywords": ["php", "countries", "sql", "agile data", "agile toolkit"],
+    "homepage": "https://github.com/atk4/countries",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Romans Malinovskis",
+            "email": "romans@agiletoolkit.org",
+            "homepage": "https://nearly.guru/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "atk4/data": "*"
+    },
+    "autoload": {
+        "psr-4": {"atk4\\countries\\":"src/"}
+    }
+}
